@@ -81,8 +81,12 @@ chmod +x zyx.scala
 
 ## Learning Resources
 
-* https://docs.scala-lang.org/getting-started-sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html
-* https://learnxinyminutes.com/docs/scala/
-* https://www.scala-exercises.org/scala_tutorial/terms_and_types
-* https://wiki.archlinux.org/index.php/Scala
-* https://en.wikipedia.org/wiki/Scala_(programming_language)
+ * https://docs.scala-lang.org/getting-started-sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html
+ * https://learnxinyminutes.com/docs/scala/
+ * https://www.scala-exercises.org/scala_tutorial/terms_and_types
+ * https://wiki.archlinux.org/index.php/Scala
+ * https://en.wikipedia.org/wiki/Scala_(programming_language)
+
+## Books
+
+ * Programming in Scala: A comprehensive step-by-step guide, Martin Odersky, Lex Spoon, Bill Venners
