@@ -10,16 +10,16 @@ aimed to address criticisms of Java.
 
 ## Installing Scala on Arch Linux
 
-First, we need to install the scala package:
+First, we need to install the Scala package:
 
 ```
 sudo pacman -S scala
 ```
 
-Once installed, you should have a working scala compiler `scalac` 
-and a scala interpreter or repl `scala`.
+Once installed, you should have a working Scala compiler `scalac` 
+and a Scala interpreter or repl `scala`.
 
-Lastly, we install the scala build tool called `sbt`:
+Lastly, we install the Scala build tool called `sbt`:
 
 ```
 sudo pacman -S sbt
@@ -46,7 +46,7 @@ sbt -help
 sbt help
 ```
 
-## Creating an empty scala project
+## Creating an empty Scala project
 
 ```
 sbt new scala/hello-world.g8
@@ -59,6 +59,25 @@ cd hello-world
 sbt run
 ```
 
+## Running Scala scripts
+
+```
+scala ./chap2/hello-world.scala
+```
+
+## Making Scala scripts executable on POSIX systems
+
+1) Add the following shebang line to the scala script:
+
+```
+#!/usr/bin/env scala
+```
+
+2) Make the Scala script executable by setting the execute bit:
+
+```
+chmod +x zyx.scala
+```
 
 ## Learning Resources
 
