@@ -1,10 +1,10 @@
 
 CC=scalac
-FILES=summer-app.scala ChecksumAccumulator.scala
+FILES=summer-app.scala ChecksumAccumulator.scala FallWinterSpringSummer.scala
 
-all: Summer.class
+all: Summer.class FallWinterSpringSummer.class
 
-Summer.class:
+Summer.class FallWinterSpringSummer.class:
 	$(CC) $(FILES)
 	
 clean:
