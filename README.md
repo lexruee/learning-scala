@@ -1,4 +1,4 @@
-# Scala
+# Learning Scala
 
 From Wikipedia:
 
@@ -7,6 +7,10 @@ Scala is a general-purpose programming language providing support for functional
 and a strong static type system. Designed to be concise, many of Scala's design decisions 
 aimed to address criticisms of Java.
 ```
+## Code Examples
+
+ * [Chapter 2 - First Steps in Scala](http://github.com/lexruee/learning-scala/tree/master/chap2)
+ * [Chapter 3 - Next Steps in Scala](http://github.com/lexruee/learning-scala/tree/master/chap3)
 
 ## Installing Scala on Arch Linux
 
