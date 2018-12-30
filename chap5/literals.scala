@@ -12,9 +12,12 @@ val ii: Int = 100
 
 // float literal
 val f = 100.10f
+val ff = 1.5e2f
+
 
 // double literal
 val d = 10.10d
+val dd = 1.5e2d
 
 // char literal
 val c = 'a' + 1
