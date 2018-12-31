@@ -24,6 +24,8 @@ class Rational(n: Int, d:Int) {
   def unary_- = new Rational(-numer, denom)
   def unary_+ = this
 
+  def ! = !this
+
   override def toString = numer + "/" + denom
 
   private def gcd(a: Int, b: Int): Int = if (b==0) a else gcd(b, a % b)
@@ -41,3 +43,4 @@ println(!r5)
 println(~r5)
 println(-r5)
 println(+r5)
+println(!r5!)
