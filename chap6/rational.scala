@@ -19,6 +19,11 @@ class Rational(n: Int, d:Int) {
     denom * that.denom
   )
 
+  def unary_! = new Rational(denom, numer)
+  def unary_~ = new Rational(denom, numer)
+  def unary_- = new Rational(-numer, denom)
+  def unary_+ = this
+
   override def toString = numer + "/" + denom
 
   private def gcd(a: Int, b: Int): Int = if (b==0) a else gcd(b, a % b)
@@ -32,3 +37,7 @@ val r5 = new Rational(10, 5)
 println(r1 + "+" + r2 + "=" + r3)
 println(r1 + "*" + r2 + "=" + r4)
 println(r5)
+println(!r5)
+println(~r5)
+println(-r5)
+println(+r5)
