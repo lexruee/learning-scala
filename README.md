@@ -13,6 +13,8 @@ aimed to address criticisms of Java.
  * [Chapter 3 - Next Steps in Scala](http://github.com/lexruee/learning-scala/tree/master/chap3)
  * [Chapter 4 - Classes and Objects](http://github.com/lexruee/learning-scala/tree/master/chap4)
  * [Chapter 5 - Basic Types and Operations](http://github.com/lexruee/learning-scala/tree/master/chap5)
+ * [Chapter 6 - Functional Objects](http://github.com/lexruee/learning-scala/tree/master/chap6)
+ * [Chapter 7 - Built-in Control Structures](http://github.com/lexruee/learning-scala/tree/master/chap7)
 
 ## Installing Scala on Arch Linux
 
