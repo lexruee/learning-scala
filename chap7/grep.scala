@@ -22,7 +22,8 @@ def grepFiles(files: List[File], pattern: String): List[String] = {
   for {
     file <- files if file.isFile
     line <- fileLines(file) 
-    if line.trim.matches(pattern)
+    trimmed = line.trim
+    if trimmed.matches(pattern)
   } yield file + ": " + line.trim
 }
 
